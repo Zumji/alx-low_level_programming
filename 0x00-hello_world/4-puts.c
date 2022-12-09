@@ -1,4 +1,4 @@
-#include <sidio.h>
+#include <stdio.h>
 
 /**
  * main - Eniry point
@@ -6,7 +6,7 @@
  * return:Always 0 (success)
 */
 
-int main(void)
+int main(void) 
 
 {
 	puts("\"programming is lIke building a multilingual puzzle");

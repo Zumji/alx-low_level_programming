@@ -7,15 +7,16 @@
  * main - main function to generate a random number
  *
  *  Return: Always 0 (Success)
+ *
 */
 int main(void)
 {
 	int n;
-	int digit = n % 10;
+	int digit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-
+digit = n % 10;
 if (n > 5)
 {
 printf("%d and is greater than 5\n", digit);

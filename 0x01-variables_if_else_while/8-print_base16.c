@@ -16,7 +16,7 @@ while (hexidecimal <= '9')
 putchar(hexidecimal);
 hexidecimal++;
 }
-if (letter <= 'e')
+if (letter < 'f')
 {
 	putchar(letter);
 	letter++;

@@ -8,12 +8,18 @@
  */
 int main(void)
 {
-char hexidecimal = 'a';
+int hexidecimal = '0';
+char letter = 'a';
 
-while (hexidecimal <= 'e')
+while (hexidecimal <= '9')
 {
 putchar(hexidecimal);
 hexidecimal++;
+}
+if (letter <= 'e')
+{
+	putchar(letter);
+	letter++;
 }
 putchar('\n');
 return (0);

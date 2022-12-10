@@ -17,17 +17,17 @@ int main(void)
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 digit = n % 10;
-if (n > 5)
+if (n > i)
 {
-printf("%d and is greater than 5\n", digit);
+printf("Last digit of %d and %d is greater than 5\n", digit);
 }
 else if ((n < 6) && (n < 0))
 {
-printf("%d and is less than 6 and not 0\n", digit);
+printf("Last of %d and %d is less than 6 and not 0\n", digit);
 }
 else if (n == 0)
 {
-printf("%d and is 0 \n", digit);
+printf("Last digit of %d and is 0 \n", digit);
 }
 return (0);
 }

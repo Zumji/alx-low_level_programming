@@ -9,16 +9,16 @@
 int main(void)
 {
 int hexidecimal = '0';
-char letter = 'f';
+char letter;
 
 while (hexidecimal <= '9')
 {
 putchar(hexidecimal);
 hexidecimal++;
 }
-if (letter >= 'a')
+for (letter = 'a'; letter <= 'f'; letter++)
 {
-	putchar(letter--);
+	putchar(letter);
 }
 putchar('\n');
 return (0);

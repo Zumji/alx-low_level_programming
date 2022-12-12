@@ -13,10 +13,10 @@ int n;
 for (n = 48; n < 58; n++)
 {
 putchar(n);
+putchar(',');
 }
 if (n != 58)
 {
-putchar(',');
 putchar(' ');
 }
 putchar('\n');

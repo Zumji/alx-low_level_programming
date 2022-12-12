@@ -15,11 +15,11 @@ for (n = 48; n <= 59; n++)
 	putchar(n);
 	putchar(',');
 	putchar(' ');
-}
+}/**
 		if (n != 58)
 {
 			putchar(' ');
-}
+}*/
 putchar('\n');
 return (0);
 }

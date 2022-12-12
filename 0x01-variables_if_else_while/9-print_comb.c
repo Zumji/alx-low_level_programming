@@ -9,20 +9,16 @@
  */
 int main(void)
 {
-int n = 0;
-if (n > 0)
+int n;
+for (n = 0; n < 10; n++)
 {
-putchar(n);
-n++;
+	putchar(n + '0');
 }
-else if (n < 9)
+if (n < 9)
+	putchar(',');
+	putchar(' ');
 {
-putchar(n);
-n++;
-}
-else if (n == 9)
-putchar(',');
-}
 putchar('\n');
 return (0);
+}
 }

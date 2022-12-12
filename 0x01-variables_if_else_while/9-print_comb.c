@@ -14,13 +14,8 @@ for (n = 48; n <= 58; n++)
 {
 	putchar(n);
 	putchar(',');
+	break;
 }
-if (n < 58)
-
-{
-	putchar(' ');
-}
-
 putchar('\n');
 return (0);
 }

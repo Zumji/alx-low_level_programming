@@ -15,6 +15,9 @@ for (n = 48; n < 58; n++)
 	putchar(n);
 	putchar(',');
 }
+	if (n == 58) {
+		break;
+}
 putchar('\n');
 return (0);
 }

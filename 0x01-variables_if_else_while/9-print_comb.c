@@ -14,7 +14,7 @@ for (n = 0; n < 10; n++)
 {
 	putchar(n);
 }
-if (n < 9)
+if (n != 9)
 
 {
 	putchar(',');

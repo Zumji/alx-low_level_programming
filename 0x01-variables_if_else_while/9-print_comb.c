@@ -15,10 +15,6 @@ putchar(n);
 putchar(',');
 putchar(' ');
 }
-if (n == 58)
-
-{
-}
 putchar('\n');
 return (0);
 }

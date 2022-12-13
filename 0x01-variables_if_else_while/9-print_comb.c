@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	clrscr();
 int n;
 for (n = 48; n < 58; n++)
+clrscr();
 {
 putchar(n);
 putchar(',');
 putchar(' ');
 }
 putchar('\n');
-getchar();
+getch();
 return (0);
 }

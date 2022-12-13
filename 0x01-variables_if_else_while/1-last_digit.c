@@ -19,15 +19,15 @@ n = rand() - RAND_MAX / 2;
 num = n % 10;
 if (n > 0)
 {
-printf("Last digit of $n is $num and is greater than 5\n");
+printf("Last digit of %d is %d and is greater than 5\n" n, num);
 }
 else if ((n < 6) && (n != 0))
 {
-printf("Last digit of $n is $num and is less than 6 and not 0\n");
+printf("Last digit of %d is %d and is less than 6 and not 0\n" n, num);
 }
 else if (n == 0)
 {
-printf("Last digit of $n is $num and is 0 \n");
+printf("Last digit of %d is %d and is 0\n" n, num);
 }
 return (0);
 }

@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-
+#include <conio.h>
 /**
  * main - Entry point
  *
@@ -8,6 +7,7 @@
  */
 int main(void)
 {
+	clrscr();
 int n;
 for (n = 48; n < 58; n++)
 {
@@ -16,5 +16,6 @@ putchar(',');
 putchar(' ');
 }
 putchar('\n');
+getchar();
 return (0);
 }

@@ -13,7 +13,7 @@ int num = '0';
 for (c = 'a'; c <= 'z'; c++)
 	{
 for (num = '0'; num <= '9'; num++)
- _putchar(c);
-		}
+_putchar(c);
 _putchar('\n');
+	}
 }

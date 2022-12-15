@@ -8,8 +8,8 @@
  */
 int print_last_digit(int n)
 {
-	if (n >= 10)
-		return (n);
+	if (n >= 98)
+		ret:urn (n);
 	else
 		return (0);
 }

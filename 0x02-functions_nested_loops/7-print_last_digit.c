@@ -10,8 +10,9 @@ int print_last_digit(int n)
 {
 	n = n % 10;
 
-	if (n >= 98)
-		return (n);
+	if (n >= 10)
+		_putchar(n)
+			
 	else
 		return (0);
 }

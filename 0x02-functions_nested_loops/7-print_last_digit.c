@@ -12,7 +12,6 @@ int print_last_digit(int n)
 
 	if (n >= 98)
 		return (n);
-		n++;
 	else
 		return (0);
 }

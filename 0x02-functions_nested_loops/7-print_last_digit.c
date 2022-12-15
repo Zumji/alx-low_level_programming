@@ -9,7 +9,7 @@
 int print_last_digit(int n)
 {
 	if (n >= 98)
-		ret:urn (n);
+		return (n);
 	else
 		return (0);
 }

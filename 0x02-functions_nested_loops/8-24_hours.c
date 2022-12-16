@@ -2,7 +2,7 @@
 /**
  * jack_bauer - it is a function to calculate every minute
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int minute, hour;
 

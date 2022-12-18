@@ -19,7 +19,7 @@ largest = a;
 }
 else
 {
-largest = b;
+largest = c;
 }
 }
 else if (b > c)

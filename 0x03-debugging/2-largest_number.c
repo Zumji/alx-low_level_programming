@@ -22,7 +22,7 @@ else
 largest = c;
 }
 }
-if (b > c)
+else if (b > c)
 {
 largest = b;
 }
@@ -30,5 +30,5 @@ else
 {
 largest = c;
 }
-return (largest);
+return (0);
 }

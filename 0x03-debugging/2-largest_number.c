@@ -30,13 +30,5 @@ else
 {
 largest = c;
 }
-else if (c > a)
-{
-	largest = c;
-}
-else
-{
-	largest = a;
-}
 return (largest);
 }

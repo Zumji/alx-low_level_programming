@@ -22,13 +22,13 @@ else
 largest = b;
 }
 }
-else if (c > a)
+else if (c > b)
 {
 largest = c;
 }
 else
 {
-largest = a;
+largest = b;
 }
 return (largest);
 }

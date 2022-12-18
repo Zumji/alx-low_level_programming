@@ -19,12 +19,12 @@ largest = a;
 }
 else
 {
-largest = b;
-}
-}
-else if (a < c)
-{
 largest = c;
+}
+}
+else if (b > c)
+{
+largest = b;
 }
 else
 {

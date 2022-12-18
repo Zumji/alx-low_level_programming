@@ -16,15 +16,15 @@ int a, b, c;
 
 if (a > b && b > c)
 {
-printf(" the largest number is: %d\n", a);
+printf("%d is the largest number\n", a);
 }
 else if (b > a && a > c)
 {
-printf("the largest number is : %d\n", b);
+printf("%d is the largest number\n", b);
 }
 else
 {
-printf("The largest number is :%d\n", c);
+printf("%d is the largest number\n", c);
 }
-return (largest);
+return (0);
 }

@@ -19,7 +19,7 @@ largest = a;
 }
 else
 {
-largest = c;
+largest = b;
 }
 }
 else if (b > c)
@@ -28,7 +28,7 @@ largest = b;
 }
 else
 {
-largest = a;
+largest = c;
 }
 return (largest);
 }

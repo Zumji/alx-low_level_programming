@@ -4,13 +4,12 @@
  * @s: is the address of the string
  * Return: the value of the length of the string
  */
-int _strlen(char *s)
+int main (void)
 {
-	int i = 0;
-
-	while (*(s + count) !='\0')
-	{
-	count++;
-	}
-	return (count);
+	char *str;
+	int len;
+	str = "my first strlen!";
+	len = _strlen(str);
+	printf("%d\n", len);
+	return (0);
 }

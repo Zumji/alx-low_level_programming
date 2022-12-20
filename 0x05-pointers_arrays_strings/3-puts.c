@@ -9,9 +9,11 @@
 
 int main(void)
 {
-	char *str;
+	
+	for (; *str != '\0'; str++)
 
-	*str = "I do not fear computers.I fear the lack of them";
-	putchar(str);
-	return (0);
+	{
+		putchar(*str);
 	}
+	putchar('\n');
+}

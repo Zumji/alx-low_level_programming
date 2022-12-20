@@ -7,7 +7,7 @@
  * Return: return the string
  */
 
-int main(void)
+void _puts(char *str)
 {
 	
 	for (; *str != '\0'; str++)

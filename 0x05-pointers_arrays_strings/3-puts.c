@@ -12,6 +12,6 @@ int main(void)
 	char *str;
 
 	*str = "I do not fear computers.I fear the lack of them";
-	putchar('str');
+	putchar(str);
 	return (0);
 	}

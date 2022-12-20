@@ -1,5 +1,6 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * print_rev - it prints string in the revise order.
  * @s: it is the string to be printer

@@ -7,10 +7,11 @@
  * Return: return the string
  */
 
-void _puts(char *str)
+int main(void)
 {
+	char *str;
 
 	*str = "I do not fear computers.I fear the lack of them";
-	putchar('*str');
-	return (str);
+	putchar('str');
+	return (0);
 	}

@@ -7,10 +7,10 @@
  */
 int _strlen(char *s)
 {
-	char *s;
 	int len;
-	*s = "my first strlen!";
-	len = _strlen(*s);
+
+	s = "my first strlen!";
+	len = _strlen(s);
 	printf("%d\n", len);
 	return (0);
 }

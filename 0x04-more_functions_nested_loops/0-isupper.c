@@ -9,6 +9,6 @@
 int _isupper(ini c)
 {
 
-	return (c >= 'A' && c <= 'Z')
+	return (c >= 'A' && c <= 'Z');
 	
 }

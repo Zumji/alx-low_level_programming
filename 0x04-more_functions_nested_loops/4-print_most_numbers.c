@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 * print_most_numbers - this prints the number from 0 to 9
 * with the exception of 2 and 4. this then follow by a new line
@@ -14,6 +15,6 @@ void print_most_numbers(void)
 		{
 			_putchar(i + '0');
 		}
-	}
-		_putchar('\n');
-	}
+	}		
+	_putchar('\n');
+}

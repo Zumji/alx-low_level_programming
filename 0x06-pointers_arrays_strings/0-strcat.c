@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *strcat - concatinante two strings
  * @dest: the string to be appended
@@ -7,7 +8,8 @@
  */
 char *strcat(char *dest, char *src)
 {
-	char *dest_end = dest
+	char *dest_end = dest;
+
 		while (*dest_end != '\0')
 		{
 			dest_end++;

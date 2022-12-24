@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *strcat - concatinante two strings
+ *_strcat - concatinante two strings
  * @dest: the string to be appended
  * @src: the string to be appended to dest
  * Return: dest
  */
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *dest_end = dest;
 

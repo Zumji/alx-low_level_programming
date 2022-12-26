@@ -13,7 +13,7 @@ int i = 0, t;
 for (i = 0; i < n--; i++)
 {
 t = a[i];
-a[i] = a[i];
+a[i] = a[n];
 a[n] = t;
 }
 }

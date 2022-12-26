@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * reverse_array - reverse the array
- * @a: pointer
- * @r: array length
- * Return: void
+ *reverse_array - reverse the array
+ *@a: is a pointer in the function
+ *@n: array length
+ *Return: void
  */
 void reverse_array(int *a, int n)
 {

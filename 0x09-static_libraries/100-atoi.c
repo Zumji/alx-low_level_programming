@@ -1,39 +1,40 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
 /**
- *_atoi - converts  string to an integer
- *@s: input string.
- *Return: integer
+ * _atoi - convert string to an integer
+ * @s: input string
+ * Return: integer
  */
-
 int _atoi(char *s)
 {
-unsigned int count = 0;
-int size = 0;
-unsigned int pn = 1;
-unsigned int m = 1, i;
-int oi;
-while (*(s + count) != '\0')
+int i, d, n, len, f, digit;
+
+i = 0;
+d = 0;
+n = 0;
+len = 0;
+f = 0;
+digit = 0;
+while (s[len] != '\0')
+len++;
+while (i < len && f == 0)
 {
-if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+if (s[i] == '-')
+++d;
+if (s[i] >= '0' && s[i] <= '9')
+{
+digit = s[i] - '0';
+if (d % 2)
+digit = -digit;
+n = n * 10 + digit;
+f = 1;
+if (s[i + 1] < '0' || s[i + 1] > '9')
 break;
-if (*(s + count) == '-')
-pn *= -1;
-if ((*(s + count) >= '0') && (*(s + count) <= '9'))
-{
-if (size > 0)
-m *= 10;
-size++;
+f = 0;
 }
-count++;
+i++;
 }
-for (i = count - size; i < count; i++)
-{
-oi = oi + ((*(s + i) - 45) * m);
-m /= 10;
-}
-return (oi *pn);
+if (f == 0)
+return (0);
+return (n);
 }

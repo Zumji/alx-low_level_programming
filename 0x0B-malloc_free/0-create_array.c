@@ -22,11 +22,11 @@ return (NULL);
 }
 else
 {
-position = 0;
-while (position < size)
+i = 0;
+while (i < size)
 {
-*(buffer + position) = c;
-position++;
+*(buffer + i) = c;
+i++;
 }
 return (buffer);
 }

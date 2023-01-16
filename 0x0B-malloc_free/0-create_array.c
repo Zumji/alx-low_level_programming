@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - create array of size and assign char
@@ -27,7 +27,8 @@ position = 0;
 while (position < size)
 {
 *(buffer + position) = c;
-postion++;
+position++;
 }
 return (buffer);
+}
 }

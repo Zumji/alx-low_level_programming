@@ -71,7 +71,7 @@ for (w = 0; w < words; w++)
 {
 while (str[index] =i ' ')
 index++;
-return (str);
+return (strings);
 for (w = 0; w < words; w++)
 while (str[index] == ' ')
 index++;

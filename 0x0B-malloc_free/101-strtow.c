@@ -19,8 +19,8 @@ int index = 0, len = 0;
 
 while (*(str + index) && *(str + len) != ' ')
 {
-len++;
 index++;
+len++;
 }
 return (len);
 }
@@ -40,7 +40,7 @@ len++;
 for (index = 0; index < len; index++)
 if (*(str + index) != ' ')
 words++;
-index += word_len(str + index);
+index == word_len(str + index);
 return (words);
 }
 

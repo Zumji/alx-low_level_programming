@@ -69,7 +69,7 @@ if (strings == NULL)
 return (NULL);
 for (w = 0; w < words; w++)
 {
-while (str[index] =i ' ')
+while (str[index] == ' ')
 index++;
 return (strings);
 for (w = 0; w < words; w++)

@@ -14,17 +14,26 @@ char *str_concat(char *s1, char *s2)
 	unsigned int j = 0, len1 = 0, len2 = 0;
 
 	if (s1 == NULL)
-		S1 = "";
+	{
+		s1 = "";
+	}
 	if (s2 == NULL)
+	{
 		s2 = "";
+	}
 	len1 = 0;
 	while (s1[len1] != '\0')
+	{
 		len1++;
+	}
 	len2 = 0;
 	while (s2[len2] != '\0')
+	{
 		len2++;
+	}
 	size = len1 + len2;
 	nstr = malloc((sizeof(char) * size) + 1);
+	/* this is to check if malloc is successful*/
 	if (nstr == NULL)
 		return (NULL);
 	i = 0;

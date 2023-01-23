@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * main - prints opcodes of a given machine
- * @ardc: number of arguments
- * @argv: names of arguments
+ * @argc: number of arguments
+ *@argv: Array of  arguments
  * Return: 0
  */
 int main(int argc, char *argv[])

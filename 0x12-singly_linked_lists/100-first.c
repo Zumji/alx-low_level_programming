@@ -1,4 +1,5 @@
 #include "lists.h"
+void __attribute__((constructor)) hare(void);
 /**
  * hare - prints a string before the main function in execution
  */

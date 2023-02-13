@@ -10,7 +10,7 @@ unsigned int binary_to_unit(const char *b)
 	int i;
 		unsigned int ambert = 0;
 
-	if (!b)
+	if (lb)
 		return (0);
 	for (i = 0; b[i]; i++)
 
